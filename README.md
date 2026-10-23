@@ -1,4 +1,13 @@
-# gonana
+<p align="center">
+  <img src="assets/icon.svg" width="96" alt="">
+</p>
+
+<h1 align="center">gonana</h1>
+
+<p align="center">
+  <a href="https://github.com/PlatanosVerdes/gonana/tags"><img src="https://img.shields.io/github/v/tag/PlatanosVerdes/gonana?label=release&color=2f7d3a" alt="Latest release"></a>
+  <img src="https://img.shields.io/github/go-mod/go-version/PlatanosVerdes/gonana" alt="Go version">
+</p>
 
 Go packages shared by the PlatanosVerdes services, in one module. A program compiles only the
 packages it imports, so pulling the module in costs nothing for the ones it does not use.
