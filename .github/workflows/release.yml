@@ -5,8 +5,8 @@ name: Release
 on:
   push:
     branches: [main]
-    # An icon or a README is not a new version.
-    paths-ignore: ["assets/**", "**/*.md"]
+    # Only code is a new version.
+    paths: ["**/*.go", "go.mod", "go.sum", "!**/*_test.go"]
   pull_request:
 
 permissions:
